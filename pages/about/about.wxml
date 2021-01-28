@@ -1,7 +1,17 @@
 <view class="containar">
-  <image src="/image/simba.jpg"></image>
+  <image src="/image/simba.jpg" class="about-banner"></image>
   <text>电影周周看</text>
-  <text>我每周推荐一部好电影</text>
+  <view>
+    <text>我</text>
+    <navigator
+      style="display:inline;" 
+      url="/pages/weekly/weekly"
+      open-type="switchTab"
+      hover-class="nav-hover"
+      class="nav-default"
+      >每周推荐</navigator>
+    <text>一部好电影</text>
+  </view>
   <text>我的微博:weibo.com/YuchuanHuaying</text>
   <text>YuchuanHuaying</text>
   <text>JixuanSiyuan</text>

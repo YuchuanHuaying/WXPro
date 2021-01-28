@@ -1,5 +1,33 @@
 {
   "pages": [
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/weekly/weekly"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "image/icons/about.png",
+        "selectedIconPath": "image/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/weekly/weekly",
+        "text": "每周推荐",
+        "iconPath": "image/icons/weekly.png",
+        "selectedIconPath": "image/icons/weekly-selected.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#000fff"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "YuchuanHuaying",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
 }
